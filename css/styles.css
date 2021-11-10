@@ -165,6 +165,9 @@ body .container .tip .buttons .custom {
   outline: none;
   color: var(--Very-dark-cyan);
 }
+body .container .tip .buttons .custom::placeholder {
+  font-size: 14px;
+}
 body .container .tip .buttons .custom.incorrect {
   border: 2px solid #ff0000;
 }
@@ -310,10 +313,42 @@ body .container .total .reset:hover {
 }
 body .attribution {
   position: absolute;
-  bottom: 0;
-  left: 35%;
+  bottom: 20%;
+  left: 40%;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1340px) {
+  body main .container .tip .buttons .custom::placeholder {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  body .logo {
+    margin-top: 8%;
+  }
+  body main .container {
+    width: 60%;
+  }
+  body main .container .tip .buttons .custom::placeholder {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 760px) {
+  body .logo {
+    margin-top: 8%;
+  }
+  body main .container {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 600px) {
+  body .logo {
+    margin-top: 8%;
+  }
+  body main .container {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 550px) {
   body .logo {
     width: 30vw;
     height: auto;
@@ -323,13 +358,13 @@ body .attribution {
   }
   body .container {
     width: 80vw;
-    height: 90vh;
+    height: 100%;
     margin-top: 5vh;
     background: var(--White);
     border-radius: 15px;
     padding: 10vw;
     margin: 0;
-    margin-top: 35vh;
+    margin-top: 40vh;
   }
   body .container .bill {
     color: var(--Dark-grayish-cyan);
@@ -399,7 +434,7 @@ body .container .tip .buttons .fifty-percent {
     background-color: #fff;
     border-radius: 6px;
     position: absolute;
-    top: 38vh;
+    top: 40vh;
   }
   body .container .n-people h3 {
     color: var(--Dark-grayish-cyan);
@@ -509,7 +544,7 @@ body .container .tip .buttons .fifty-percent {
   body .attribution {
     position: absolute;
     bottom: -10vh;
-    left: 1vw;
+    left: 17vw;
   }
 }
 

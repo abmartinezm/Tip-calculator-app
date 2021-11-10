@@ -215,6 +215,10 @@ body {
                     color: var(--Very-dark-cyan);
                 }
 
+                .custom::placeholder{
+                    font-size: 14px;
+                }
+
                 .custom.incorrect {
                     border: 2px solid #ff0000;
                 }
@@ -417,15 +421,86 @@ body {
 
     .attribution{
         position: absolute;
-        bottom: 0;
-        left: 35%;
+        bottom: 20%;
+        left: 40%;
     }
 
     //////////////////////////////////////////////////////////////////////
 
     // Responsive
 
-    @media screen and (max-width:375px) {
+    @media screen and (max-width:1340px){
+        main{
+            .container{
+                .tip{
+                    .buttons{
+                        .custom::placeholder{
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    @media screen and (max-width:1100px){
+
+        .logo{
+            margin-top: 8%;
+        }
+        main{
+            .container{
+                width: 60%;
+        // margin: 10% auto;
+        // height: 40%;
+                .tip{
+                    .buttons{
+                        .custom::placeholder{
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    @media screen and (max-width:760px){
+
+        .logo{
+            margin-top: 8%;
+        }
+        main{
+            .container{
+                width: 75%;
+        // margin: 10% auto;
+        // height: 40%;
+        
+            }
+        }
+
+    }
+
+    @media screen and (max-width:600px){
+
+        .logo{
+            margin-top: 8%;
+        }
+        main{
+            .container{
+                width: 85%;
+        // margin: 10% auto;
+        // height: 40%;
+        
+            }
+        }
+
+    }
+
+
+
+    @media screen and (max-width:550px) {
 
 
         .logo {
@@ -440,13 +515,13 @@ body {
 
         .container {
             width: 80vw;
-            height: 90vh;
+            height: 100%;
             margin-top: 5vh;
             background: var(--White);
             border-radius: 15px;
             padding: 10vw;
             margin: 0;
-            margin-top: 35vh;
+            margin-top: 40vh;
 
             .bill {
                 color: var(--Dark-grayish-cyan);
@@ -544,7 +619,7 @@ body {
                 background-color: #fff;
                 border-radius: 6px;
                 position: absolute;
-                top: 38vh;
+                top: 40vh;
 
                 h3 {
                     color: var(--Dark-grayish-cyan);
@@ -688,7 +763,7 @@ body {
         .attribution{
             position: absolute;
             bottom: -10vh;
-            left: 1vw;
+            left: 17vw;
         }
     }
 }
