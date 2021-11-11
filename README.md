@@ -1,23 +1,12 @@
-# Frontend Mentor - Blogr landing page solution
+Blogr landing page
 
-This is a solution to the [Blogr landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP). 
 
-### The challenge
+![Design preview for the Blogr landing page coding challenge](./design/desktop-preview.jpg)
 
-Users should be able to:
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
+LiveSiteUrl:https://blogr-landing-page.vercel.app/
 
-### Built with
+ The designs were created to the following widths:
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- Scss
-- Javascript
-- Mobile-first workflow
-
-## Author
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/GerriEzeocha)
-
+- Mobile: 375px
+- Desktop: 1440px
