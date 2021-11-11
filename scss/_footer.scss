@@ -1,0 +1,63 @@
+.ftr {
+    display: flex;
+    flex-direction: column;
+    background: $veryDarkBlackBlue;
+    padding: 1.5rem;
+    border-top-right-radius: 8rem;
+    align-items: center;
+    justify-content: center;
+
+    &_logo{
+        padding: 2rem;
+        @include breakpoints(laptop){
+            flex: 1;
+        }
+    }
+
+    &_section{
+        font-family: 'Ubuntu', sans-serif;
+        margin: 1rem 0;
+        display: flex;
+        flex-direction: column;
+
+        a{
+            font-family: 'Ubuntu', sans-serif;
+            color: $grayishBlue;
+            line-height: 1.9rem;
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+
+        @include breakpoints(laptop){
+            flex: 1;
+        }
+    }
+
+    &_section_title{
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 700;
+        margin: 1rem 0;
+        color: $white;
+        font-size: 1.1rem;
+    }
+
+    @include breakpoints(laptop){
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+
+.attribution{
+    background: $veryDarkBlackBlue;
+    color: $grayishBlue;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 200px;
+    margin-right: 40px;
+
+    a{
+        color: $grayishBlue;
+    }
+}

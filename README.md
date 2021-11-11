@@ -1,13 +1,23 @@
-Tip calculator app
+# Frontend Mentor - Blogr landing page solution
 
-![Design preview for the Tip calculator app coding challenge](./design/desktop-preview.jpg)
+This is a solution to the [Blogr landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP). 
 
+### The challenge
 
+Users should be able to:
 
-LiveSiteUrl: https://tip-calculator-app-abmartinezm.vercel.app
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
 
+### Built with
 
-The designs were created to the following widths:
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Scss
+- Javascript
+- Mobile-first workflow
 
-- Mobile: 375px
-- Desktop: 1440px
+## Author
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/GerriEzeocha)
+
