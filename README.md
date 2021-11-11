@@ -1,6 +1,6 @@
 Tip calculator app
 
-![Design preview for the Tip calculator app coding challenge](./design/desktop-design-completed.jpg
+![Design preview for the Tip calculator app coding challenge](./design/desktop-preview.jpg)
 
 
 LiveSiteUrl: https://tip-calculator-app-abmartinezm.vercel.app
